@@ -1,0 +1,105 @@
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.h3Div {
+    /* height: 80px;
+    background-color: rgb(56, 56, 56); */
+}
+
+#infographic {
+    margin-left: 10%;
+    /* text-align: center; */
+}
+
+.icon {
+    height: 35px;
+    /* display: inline; */
+}
+
+.infoRow {
+    display: flex;
+}
+
+.iconDiv {
+    /* display: flex;
+    flex-direction: row; */
+    /* display: inline; */
+}
+
+.caseKey {
+    background-color: #FFEB99;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.caseValue {
+    background-color: #fff1bbf3;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center; 
+}
+
+#caseData {
+    text-align: center;
+    /* align-items: center;  
+    justify-content: center;  */
+}
+
+.casesRow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;  
+    border: 1px solid #ffde8a;
+}
+
+table tr td {
+    
+}
+
+.line {
+    /* display: block; */
+    text-align: center;
+}
+
+#vcardContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#navigator {
+    height: 290px;
+    background-color: #FFCC00;
+}
+
+#navRow {
+    /* display: flex;
+    width: 100%; */
+}
+
+button {
+    background-color: #FFB90c;
+    color: black;
+    float: left;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 14px 16px;
+    width: 33.33%;
+}
+
+button:hover {
+    background-color: rgb(255, 240, 34);
+    color: black;
+}
+
+#lineGraph {
+    background-color: #FFEB99;
+}

@@ -1,0 +1,22 @@
+<html>
+
+<body>
+    <img src="Person080.svg" style="opacity: 80%;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" style="position:absolute; top:0; left:0">
+        <clipPath id="display">
+            <rect x="0" y="0" width="319" height="500" />
+        </clipPath>
+        <g clip-path="url(#display)">
+            <ellipse cx="200" cy="492" rx="178" ry="312" fill="none" stroke="pink" stroke-width="31px" style="opacity:40%" mask="url(#gap)"/>
+            <defs>
+                <mask id="gap">
+                    <rect x="00" y="150" width="400" height="348" fill="white" stroke="blue" />
+                    <circle cx="200" cy="106" r="115" />
+                </mask>
+            </defs>
+            <circle cx="200" cy="101" r="89" fill="pink" stroke="none" style="opacity:60%" />
+        </g>
+    </svg>
+</body>
+
+</html>

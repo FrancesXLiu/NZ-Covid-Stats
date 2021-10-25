@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="https://cws.auckland.ac.nz/Qz2021JGC/logo192.png" />
+    <title>New Zealand Covid-19 Statistics</title>
+    <link rel="stylesheet" href="xliu832.css">
+    <script src="xliu832.js" type="text/javascript" defer=true></script>
+</head>
+
+<body>
+    <div id="navigator">
+        <div style="text-align: center;">
+            <img src="https://cws.auckland.ac.nz/Qz2021JGC/logo192.png" alt="logo" />
+            <h1>NZ Covid-19 Statistics</h1>
+        </div>
+        <div id="navRow">
+            <button id="dailyCaseBtn" onclick="displayDiv('dailyCase'); displayCases();">Daily Cases</button>
+            <button id="infographicBtn" onclick="displayDiv('infographic'); fetchIcon();">Infographic</button>
+            <button id="statisticianBtn" onclick="displayDiv('statistician'); fetchStatistician();">Statistician</button>
+        </div>
+    </div>
+    <br/>
+
+    <!-- Daily case count -->
+    <div id="dailyCaseDiv">
+        <h3>Daily Case Data</h3>
+        <div id="caseData"></div>
+    </div>
+
+    <!-- Infographic -->
+    <div id="infographicDiv">
+        <h3>Last Ten Days at a Glance</h3>
+        <div id="infographic"></div>
+        <br/><br/>
+        <h3>Daily Case Graph</h3>
+        <div id="lineGraph"></div><br/><br/><br/>
+    </div>
+
+    <!-- Statistician -->
+    <div id="statisticianDiv">
+        <h3>Statistician of the Moment</h3>
+        <div id="vcard"></div>
+    </div>
+
+
+    <!-- Version -->
+    <div id="version">
+        <hr/>
+        <div id="versionLine" style="text-align: center;">
+        </div>
+    </div>
+</body>
+
+</html>
